@@ -205,7 +205,7 @@ class BarG(MDApp):
 
         self.text_font = "GOTHIC"
 
-        self.icon = "logo_green.ico"
+        self.icon = "2BarG.ico"
 
         Window.bind(on_request_close=self.on_request_close)
 
@@ -2585,7 +2585,7 @@ class SignalProcessing:
 
 
 Window.size = (900, 850)
-Window.icon = "/logo_green.png"
+Window.icon = "/2BarG.png"
 Window.title = "2BarG"
 Window.top = 100
 Window.left = 500
