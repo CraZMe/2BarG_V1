@@ -8,6 +8,7 @@
  
 # General Info & Required Libraries
 2BarG was developed in Python, using the Kivymd GUI. The following libraries **must** be installed for full operation of the software:
+
 * Kivy
 * Kivymd
 * Numpy
@@ -16,5 +17,6 @@
 * Plotly
 * Matplotlib
 * csv
-* easygiu
+* easygui
+
 We packaged 2BarG using PyInstaller, and a zipped file with an excecutable of the current version can be found at https://rittel.group/downloads/.
