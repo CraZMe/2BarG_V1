@@ -1,3 +1,5 @@
+import sys
+
 from kivymd.uix.behaviors.toggle_behavior import MDToggleButton
 from kivymd.uix.taptargetview import MDTapTargetView
 
@@ -2600,11 +2602,9 @@ def resize(*args):
 
 Window.bind(on_resize=resize)
 
-
-"""
 if sys.platform == "win32":
     import ctypes
 
     ctypes.windll.user32.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), 0)
-"""
+
 BarG().run()
